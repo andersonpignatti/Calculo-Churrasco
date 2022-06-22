@@ -26,9 +26,9 @@ function calcular() {
     let qtdTotalRefrigerante = refrigerantePP(duracao) * criancas;
     console.log(qtdTotalRefrigerante)
 
-resultado.innerHTML = `<p>${qtdTotalCarne}g de Carne</p>`;
-resultado.innerHTML += `<p>${qtdTotalCerveja}ml de Cerveja</p>`;
-resultado.innerHTML += `<p>${qtdTotalRefrigerante}ml de Refrigerante</p>`;
+resultado.innerHTML = `<p>${qtdTotalCarne / 1000} kg de Carne</p>`;
+resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja / 355)} latas de Cerveja</p>`;
+resultado.innerHTML += `<p>${Math.ceil(qtdTotalRefrigerante / 2000)} Pet´s 2 litros de Refrigerante</p>`;
 
 }
 
