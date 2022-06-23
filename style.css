@@ -16,8 +16,9 @@ margin-top: 3rem;
 }
 
 .container {
+    margin-top: 0;
     background-color: whitesmoke;
-    padding: 2rem;
+    
     display: flex;    
     justify-content: center;
     align-items: center;
@@ -86,6 +87,7 @@ p {
 #logo {
     width: 4rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .footer {
     font-family: helvetica;
