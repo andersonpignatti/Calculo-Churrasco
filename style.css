@@ -80,3 +80,23 @@ p {
     width: 100%;
     
 }
+
+#logo {
+    width: 4rem;
+    margin-bottom: 2rem;
+}
+.footer {
+    font-family: helvetica;
+    font-size: small;
+    }
+.social {
+    width: 2rem;
+    height: 2rem;
+    
+}
+.rodape {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
